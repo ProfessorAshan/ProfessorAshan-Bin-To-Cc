@@ -806,37 +806,35 @@
     
    
      
-    <div class="menu-icon" id="menuToggle">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    
-    <nav class="nav-menu" id="navMenu">
-      <div class="settings-panel">
-        <h3>Settings</h3>
-        
-        <div class="settings-option">
-          <label for="theme">Theme:</label>
-          <select id="theme">
-            <option value="light-theme1">Light 1</option>
-            <option value="light-theme2">Light 2</option>
-            <option value="light-theme3">Light 3</option>
-            <option value="dark-theme1">Dark 1</option>
-            <option value="dark-theme2">Dark 2</option>
-            <option value="corinthians-theme">Corinthians</option>
-            <option value="palmeiras-theme">Palmeiras</option>
-            <option value="vasco-theme">Flamengo</option>
-            <option value="real-madrid-theme">Real Madrid</option>
-            <option value="psg-theme">PSG</option>
-            <option value="boca-theme">Boca Juniors</option>
-          </select>
-        </div>
+   
       </div>
-      
-      <div class="tools-menu">
-        <h3 style="color: var(--accent); margin-bottom: 10px;">Main Tools</h3>
-        <button onclick="showGeneratorForm()">
-          <i class="fas fa-credit-card"></i> Namso Generator
-        </button>
-        
+    </nav>
+    <div id="content">
+      <section id="generator" class="tool-section">
+        <h2>Credit Card Generator</h2>
+        <form id="cc-form">
+          <input type="text" id="bin" placeholder="Enter BIN (e.g. 4xxxxx)" />
+          <div class="select-group">
+            <select id="month">
+              <option value="Random">Random Month</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <select id="year">
+              <option value="Random">Random Year</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+              <option value="2027">2027</option>
+              <option value="2028">2028</option>
+              <
